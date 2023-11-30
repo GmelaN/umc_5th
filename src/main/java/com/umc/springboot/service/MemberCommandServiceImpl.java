@@ -10,6 +10,7 @@ import com.umc.springboot.domain.Member;
 import com.umc.springboot.domain.mapping.MemberPrefer;
 import com.umc.springboot.repository.FoodCategoryRepository;
 import com.umc.springboot.repository.MemberRepository;
+import com.umc.springboot.validation.annotation.ExistCategories;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -27,6 +28,7 @@ public class MemberCommandServiceImpl implements MemberCommandService {
 
     @Override
     @Transactional
+    @ExistCategories
     public Member joinMember(MemberRequestDTO.JoinDTO request) {
         Member newMember = MemberConverter.toMember(request);
 

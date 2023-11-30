@@ -10,7 +10,7 @@ public class ReviewRequestDTO {
         private Long id;
         private String title;
         private Float score;
-        private Member member;
-        private Store store;
+        private Long memberId;
+        private Long storeId;
     }
 }

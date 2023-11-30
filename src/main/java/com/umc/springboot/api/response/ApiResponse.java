@@ -33,7 +33,7 @@ public class ApiResponse<T> {
  }
 
     public static <T> ApiResponse<T> onFailure(String code, String message, T data) {
-        return new ApiResponse<T>(true, code, message, data);
+        return new ApiResponse<T>(false, code, message, data);
     }
 
 }
