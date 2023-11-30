@@ -3,7 +3,6 @@ package com.umc.springboot.converter;
 import com.umc.springboot.web.dto.TempResponse;
 
 public class TempConverter {
-
     public static TempResponse.TempTestDTO toTempTestDTO(){
         return TempResponse.TempTestDTO.builder()
                 .testString("This is Test!")
