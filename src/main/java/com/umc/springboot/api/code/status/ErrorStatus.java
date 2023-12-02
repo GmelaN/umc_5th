@@ -32,8 +32,13 @@ public enum ErrorStatus implements BaseErrorCode {
     FOOD_CATEGORY_NOT_FOUND(HttpStatus.NOT_FOUND, "FOOD4001", "없는 음식 카테고리 ID 입니다."),
 
     // 가게 ID 값이 없는 ID값인 경우
-    STORE_NOT_FOUND(HttpStatus.NOT_FOUND, "STORE4001", "없는 가게 ID 입니다.")
+    STORE_NOT_FOUND(HttpStatus.NOT_FOUND, "STORE4001", "없는 가게 ID 입니다."),
 
+    // 미션 ID 값이 없는 ID값인 경우
+    MISSION_NOT_FOUND(HttpStatus.NOT_FOUND, "MISSION4001", "없는 미션 ID 입니다."),
+
+    // 이미 도전 중인 미션인 경우
+    MISSION_ALREADY_EXISTS(HttpStatus.CONFLICT, "MISSION4009", "이미 존재하는 미션입니다.")
     ;
 
     private final HttpStatus httpStatus;

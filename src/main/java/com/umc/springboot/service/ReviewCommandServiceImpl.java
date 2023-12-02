@@ -6,13 +6,13 @@ import com.umc.springboot.base.handler.StoreHandler;
 import com.umc.springboot.converter.ReviewConverter;
 import com.umc.springboot.domain.Member;
 import com.umc.springboot.domain.Store;
+import com.umc.springboot.repository.StoreRepository;
 import com.umc.springboot.validation.annotation.ExistStore;
 import com.umc.springboot.validation.annotation.ExistMember;
 import com.umc.springboot.web.dto.ReviewDTO;
 import com.umc.springboot.domain.Review;
 import com.umc.springboot.repository.MemberRepository;
 import com.umc.springboot.repository.ReviewRepository;
-import com.umc.springboot.repository.StoreRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
