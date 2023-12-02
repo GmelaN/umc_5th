@@ -2,6 +2,8 @@ package com.umc.springboot.domain;
 
 import com.umc.springboot.domain.common.BaseEntity;
 import lombok.*;
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.Range;
 
 
 import javax.persistence.*;
@@ -17,7 +19,6 @@ public class Review extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String title;
 
     private Float score;

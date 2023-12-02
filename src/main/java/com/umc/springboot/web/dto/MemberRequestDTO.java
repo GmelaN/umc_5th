@@ -5,7 +5,6 @@ import lombok.Getter;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.Range;
 
-import javax.validation.Valid;
 import java.util.List;
 
 public class MemberRequestDTO {
