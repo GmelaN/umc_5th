@@ -1,6 +1,6 @@
 package com.umc.springboot.service;
 
-import com.umc.springboot.api.code.MemberRequestDTO;
+import com.umc.springboot.web.dto.MemberRequestDTO;
 import com.umc.springboot.api.code.status.ErrorStatus;
 import com.umc.springboot.base.handler.FoodCategoryHandler;
 import com.umc.springboot.converter.MemberConverter;
