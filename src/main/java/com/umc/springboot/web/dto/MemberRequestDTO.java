@@ -1,4 +1,4 @@
-package com.umc.springboot.api.code;
+package com.umc.springboot.web.dto;
 
 import com.umc.springboot.validation.annotation.ExistCategories;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.umc.springboot.api.code;
+package com.umc.springboot.web.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

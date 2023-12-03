@@ -1,6 +1,6 @@
 package com.umc.springboot.service;
 
-import com.umc.springboot.api.code.MemberRequestDTO;
+import com.umc.springboot.web.dto.MemberRequestDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

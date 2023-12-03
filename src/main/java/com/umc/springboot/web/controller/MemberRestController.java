@@ -1,8 +1,8 @@
 package com.umc.springboot.web.controller;
 
 
-import com.umc.springboot.api.code.MemberRequestDTO;
-import com.umc.springboot.api.code.MemberResponseDTO;
+import com.umc.springboot.web.dto.MemberRequestDTO;
+import com.umc.springboot.web.dto.MemberResponseDTO;
 import com.umc.springboot.api.response.ApiResponse;
 import com.umc.springboot.converter.MemberConverter;
 import com.umc.springboot.domain.Member;

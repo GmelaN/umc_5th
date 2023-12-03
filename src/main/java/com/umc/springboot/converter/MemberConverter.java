@@ -1,7 +1,7 @@
 package com.umc.springboot.converter;
 
-import com.umc.springboot.api.code.MemberRequestDTO;
-import com.umc.springboot.api.code.MemberResponseDTO;
+import com.umc.springboot.web.dto.MemberRequestDTO;
+import com.umc.springboot.web.dto.MemberResponseDTO;
 import com.umc.springboot.domain.Member;
 import com.umc.springboot.domain.enums.Gender;
 
