@@ -30,8 +30,9 @@ public enum ErrorStatus implements BaseErrorCode {
 
     // 음식 카테고리 ID값이 없는 ID값인 경우
     FOOD_CATEGORY_NOT_FOUND(HttpStatus.NOT_FOUND, "FOOD4001", "없는 음식 카테고리 ID 입니다."),
-    STORE_NOT_FOUND(HttpStatus.NOT_FOUND, "STORE4001", "없는 가게 ID 입니다.")
+    STORE_NOT_FOUND(HttpStatus.NOT_FOUND, "STORE4001", "없는 가게 ID 입니다."),
 
+    PAGE_INDEX_OUT_OF_RANGE(HttpStatus.BAD_REQUEST, "RANGE2301", "인덱스 범위를 벗어났습니다.")
     ;
 
     private final HttpStatus httpStatus;
